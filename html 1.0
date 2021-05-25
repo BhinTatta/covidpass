@@ -1,0 +1,150 @@
+<html>
+<title> HP ePass for Inter-state commutation
+</title>
+
+<head><link href="file:///home/kalia/Desktop/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div><h1 class="logo"> <img src="file:///home/kalia/Desktop/pass/logohp.png" height="100" width="150" align="center" >Entry Registration<h3><b>Govt.of Himachal Pardesh</b></h3></h1> </div> 
+<div class="menu-button">
+	create button here
+</div> <hr  />
+<div id="blue-background">
+<h1>Registration for Entry in Himachal Pardesh</h1>
+<p>Home &ilt apply</p>
+</div>	<hr  />
+<div id="request-type">
+<h2 class="header"> Request Type</h2>
+<form action=""><p class="green">Request Type</p>
+<select name="request type">
+	<option name="">Coming to Himachal</option>
+	<option name="">Going out and coming back within 72 hours</option>
+	<option name="">Inter-state travel</option>
+</select>
+</form>
+
+</div>
+<hr  />
+
+<div id="movement"> <h2 class="header">Movement Type</h2>
+<div id="m1"> <h3>Traveling From</h3>
+<p class="green">State From</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select>
+<p>District From</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select>
+<p class="green">Full address &lpar;coming from &rpar; &ast; </p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select> </div>
+<div id="m2">
+<h3>Traveling To</h3>
+<p class="green">District From</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select>
+<p> Tehsil</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select>
+<p class="">Block/Town</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select>
+<p>Panchayat/ward</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option></select>
+
+<p>Full Address</p><select name="from">
+<option name="">--Please-select--</option>
+<option name=""></option>
+</select>
+
+</div>
+
+</div> <hr  />
+
+
+<div id="applicant"><h2 class="header">Applicant details</h2>
+<div id=a1> 
+	<p> Name &lpar;single person only&rpar;  </p> <textarea name="" rows="1"> </textarea>    
+</div>
+<div id=a2> 
+	<p>  Mobile Number </p> <textarea name="" rows="1"> </textarea>    
+</div>
+<div id="a3"> <p>Realtion Prefix</p>
+<select><option name=""> Please select</option>
+</select>
+</div>
+<div id=a4> 
+	<p>  Relative Name </p> <textarea name="" rows="1"> </textarea>    
+</div>
+<div id="a5"><p>Government ID type</p>
+<select name=""><option>--select ID type--</option></select>
+</div>
+<div id=a6> 
+	<p>  Government ID number </p> <textarea name="" rows="1"> </textarea>    
+</div>
+
+
+ </div>  <hr  />
+
+
+
+<div id="purpous"> <h2 class="header">Purpose of Visit</h2>
+<div id="p1"><p>Catagory</p> <select><option>--select pass catagory--</option></select> </div>
+<div id="p2"><p>Sub-catagory</p> <select></select></div>
+<div id="p3"><p>Purpose &lpar;max 80 characters&rpar;</p><textarea name="" rows="4"></textarea></div>
+
+
+</div>	<hr  />
+
+
+<div id="other"> <div id="o1"><p>Document address proof of travelling from</p>  
+<fieldset><input type="file"></fieldset> </div>
+<div id="o2"><p>Document address proof of Place Travelling to</p>  
+<fieldset><input type="file"></fieldset> </div>
+<div id="o3"><p>Please Upload Government ID proof</p>  
+<fieldset><input type="file"></fieldset> </div>
+</div>	<hr  />
+
+
+<div id="other"><h2 class="header">Other Details</h2>
+<div id="od1"><p> Vehicle Type </p> <select><option></option></select> </div>
+<div id="od2"><p> Vehicle Number </p> <textarea rows="1"></textarea> </div>
+<div id="od3"><p> Vehicle capacity </p> <textarea rows="1"></textarea></div>
+<div id="od4"> date paa </div>
+<div id="od5"><p> Additional persons accompanaying </p> <select><option>--please select</option></select> </div>
+<div id="od6"><p> Travelling with </p> <input type="radio" value="family" />Family
+<input type="radio" value="others" />others  </div>
+<div id="od7"><p>Enter number shown in the Image</p>   
+<img src=" skkmks " length="100" width="300" alt="captcha"> </br>
+<textarea name="captcha" rows="1"> </textarea></div>
+</div>	<hr  />
+
+
+
+<div id="declaration"> <h2 class="header">Declaration</h2>
+<div id="d1"> <ol>
+	<li><p class="green">I, do hereby declare that the facts and contents given above are true to the best of my knowledge and belief. I understand that for giving false information,I would be liable to be proceeded for penal action under relevant sections of Acts/Laws. </p></li>
+	<li><p class="green">Have you been diagnosed or tested positive for Covid-19 <input type="radio" />Yes <input type="radio" /> No </p></li>
+	<li><p class="green">I have downloaded and Installed Arogya Setu App <a href="sjn"> Download Arogya Setu App </a> <input type="radio" />Yes <input type="radio" /> No     </p></li>
+</ol>
+</div>
+<div id="d2"> <input type="image" src="file:///home/kalia/Desktop/pass/logohp.png" length="6" width="35"> </div>
+</div>	<hr  />
+
+
+<div id="footer">
+	<div id="f1"><img src="file:///home/kalia/Desktop/pass/DITLogo.png" len="50" width="70"></div>
+	<p> &#169;2021 Department of Information Technology, Govt. of Himachal Pradesh</p>
+</div>
+
+
+</body>
+
+
+</html>
